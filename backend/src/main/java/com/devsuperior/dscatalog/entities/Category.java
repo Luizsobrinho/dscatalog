@@ -29,6 +29,7 @@ public class Category implements Serializable {
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant updateAt;
 
+	
 	public Category() {
 		super();
 	}
